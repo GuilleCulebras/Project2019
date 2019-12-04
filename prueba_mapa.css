@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+.marker {
+  background-image: url('mapbox-markers/airport-icon.png');
+  background-size: cover;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border:1px solid gray;
+  cursor: pointer;
+  /* background-color:lightblue; */
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
