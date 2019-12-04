@@ -5,7 +5,7 @@
 function execute(){
   var map = new mapboxgl.Map({
       container: 'map', // id del elemento HTML que contendrá el mapa
-      style: 'http://mapserver.servehttp.com:8081/styles/osm-bright/style.json', // Ubicación del estilo
+      style: 'http://xxx.xxx.com:8080/styles/osm-bright/style.json', // Ubicación del estilo
       center: [0,0], // Ubicación inicial
       zoom: 2, // Zoom inicial // Ángulo de rotación inicial
       //hash: true // Permite ir guardando la posición del mapa en la URL
